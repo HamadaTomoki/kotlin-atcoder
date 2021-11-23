@@ -2,17 +2,15 @@ package com.example.test.first.b
 
 fun main() {
     val n = readLine()!!.toInt()
-    var buffer = 0
-    var i = 0
-    List(n) { readLine()!!.toInt() }.forEach {
-        if (i != 0) {
-            when {
-                it == buffer -> println("stay")
-                it > buffer -> println("up ${it - buffer}")
-                it < buffer -> println("down ${buffer - it}")
-            }
+    val list = List(n) { readLine()!!.toInt() }
+    var previous = list[0]
+    for (i in 1 until list.size) {
+        val l = list[i]
+        when {
+            l == previous -> println("stay")
+            l > previous -> println("up ${l - previous}")
+            l < previous -> println("down ${previous - l}")
         }
-        buffer = it
-        i++
+        previous = l
     }
 }
