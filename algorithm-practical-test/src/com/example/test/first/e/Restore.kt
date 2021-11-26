@@ -27,6 +27,7 @@ fun main() {
                 }
             }
             3 -> {
+                // ConcurrentModificationException does not occur by copying the list with toMutableList
                 followList.toMutableList().forEach { x ->
                     userMap[x]?.forEach {
                         if(it != from) {
