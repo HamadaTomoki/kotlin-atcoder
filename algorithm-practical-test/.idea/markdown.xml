@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MarkdownSettings">
+    <option name="areInjectionsEnabled" value="false" />
+    <option name="customStylesheetText" value="l {&#10;   border-bottom: solid 1px #AB0003&#10;}&#10;sl {&#10;   border-bottom: solid 1px #FA931A&#10;}&#10;fl {&#10;    display: flex;&#10;}&#10;body {&#10;    width: 60%;&#10;    margin: 0 auto;&#10;    margin-bottom: 10vh;&#10;}&#10;hr {&#10;    margin-top:20px;&#10;    margin-bottom :20px;&#10;}&#10;&#10;&#10;img[alt=w3] { width: 30%; }&#10;img[alt=w4] { width: 40%; }&#10;img[alt=w6] { width: 60%; }&#10;img[alt=w8] { width: 80%; }&#10;img {&#10;    display: block;&#10;    margin: 0 auto;&#10;    margin-top: 20px;&#10;    margin-bottom: 30px;&#10;}&#10;" />
+    <enabledExtensions>
+      <entry key="MermaidLanguageExtension" value="true" />
+      <entry key="PlantUMLLanguageExtension" value="true" />
+    </enabledExtensions>
+    <option name="hideErrorsInCodeBlocks" value="true" />
+  </component>
+</project>
